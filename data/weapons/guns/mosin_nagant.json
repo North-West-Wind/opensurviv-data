@@ -1,0 +1,49 @@
+{
+	"name": "Mosin Nagant",
+	"color": 2,
+	"ammo": 30,
+	"dual": false,
+	"length": 4.0,
+	"droppable": true,
+	"normal": {
+		"capacity": 5,
+		"reload": {
+			"bullets": 1,
+			"time": 1000
+		},
+		"delay": {
+			"switch": 0,
+			"firing": 1500
+		},
+		"spread": {
+			"still": 0,
+			"move": 1
+		},
+		"bullets": 1,
+		"speed": {
+			"equip": 12,
+			"attack": 2
+		},
+		"headshot": 2,
+		"bullet": {
+			"damage": 12,
+			"falloff": 1.0,
+			"speed": 100,
+			"range": [100, 100],
+			"suppressed": false
+		}
+	},
+	"visuals": {
+		"tracer": {
+			"type": 2,
+			"width": 0.5,
+			"length": 1.0,
+			"color": {
+				"regular": "ffffff",
+				"saturated": "ffffff",
+				"chambered": "ffffff"
+			}
+		},
+		"animations": ["fast_recoil"]
+	}
+}
