@@ -2,6 +2,7 @@
 	"name": "String. Name of the melee weapon.",
 	"reflective": "Boolean. Whether or not the weapon can reflect bullets.",
 	"auto": "Boolean. Whether the weapon fires continuously.",
+	"droppable": "Boolean. Whether the item can be dropped upon death,",
 	"normal": {
 		"__comment": "Default stats when no perks are active.",
 		"noArmor": "Boolean. Whether or not the weapon ignores armor.",
@@ -27,5 +28,8 @@
 	},
 	"<perk_id>": {
 		"__comment": "Overriden stats with perks."
+	},
+	"visuals": {
+		"animation": "Array of string. All possible animations."
 	}
 }

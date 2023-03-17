@@ -1,5 +1,6 @@
 {
 	"name": "Fists",
+	"droppable": false,
 	"normal": {
 		"damage": 24,
 		"multiplier": {
@@ -17,5 +18,8 @@
 			"equip": 13,
 			"attack": 12
 		}
+	},
+	"visuals": {
+		"animations": ["left_fist", "right_fist"]
 	}
 }

@@ -5,6 +5,7 @@
 	"dual": "Boolean. Whether or not the gun can be used in dual.",
 	"auto": "Boolean. Whether or not the gun can fire continuously. Defaults to false.",
 	"length": "Number. Gun length in game units.",
+	"droppable": "Boolean. Whether the item can be dropped upon death,",
 	"normal": {
 		"__comment": "Default stats when no perks are active.",
 		"capacity": "Number. Magazine capacity.",
@@ -56,6 +57,6 @@
 				"chambered": "String. Hex color of chambered tracer."
 			}
 		},
-		"animation": "String. Animation ID to play when shot."
+		"animations": "Array of string. Animation ID to play when shot."
 	}
 }

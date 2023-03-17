@@ -4,6 +4,7 @@
 	"ammo": 45,
 	"dual": true,
 	"length": 2.2,
+	"droppable": true,
 	"normal": {
 		"capacity": 15,
 		"reload": {
@@ -42,6 +43,6 @@
 				"chambered": "FF7F00"
 			}
 		},
-		"animation": "small_recoil"
+		"animations": ["small_recoil"]
 	}
 }
