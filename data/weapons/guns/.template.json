@@ -57,6 +57,7 @@
 				"chambered": "String. Hex color of chambered tracer."
 			}
 		},
-		"animations": "Array of string. Animation ID to play when shot."
+		"animations": "Array of string. Animation ID to play when shot.",
+		"image": "String. Path to barrel image."
 	}
 }
