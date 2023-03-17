@@ -1,0 +1,49 @@
+{
+	"color": "Number. Color of the gun and bullets.",
+	"ammo": "Number. Ammos to spawn when dropped from loot (crates, trees, etc.).",
+	"dual": "Boolean. Whether or not the gun can be used in dual.",
+	"normal": {
+		"__comment": "Default stats when no perks are active.",
+		"capacity": "Number. Magazine capacity.",
+		"reloadCount": "Number. Bullets per reload. 0 or omitted to reload all.",
+		"reloadTime": "Number. Reload time in milliseconds.",
+		"switchDelay": "Number. Switch delay in milliseconds.",
+		"firingDelay": "Number. Delay between shots in milliseconds.",
+		"burstDelay": "Number. Delay between secondary burst shots in milliseconds. If bursts is 0 or omitted, we don't care about this.",
+		"spread": "Number. Degrees of spread when standing still.",
+		"moveSpread": "Number. Degrees of spread when moving.",
+		"bullets": "Number. Bullets per shot.",
+		"bursts": "Number. Bullets per burst.",
+		"equipSpeed": "Number. Speed when equipped.",
+		"firingSpeed": "Number. Speed when firing.",
+		"headshot": "Number. Headshot damage multiplier.",
+		"recoil": "Number. Time required to get an accurate shot again. 0 or omitted to never.",
+		"bullet": {
+			"__comment": "Bullet stats",
+			"damage": "Number. Damage done by a bullet.",
+			"objDamage": "Number. Damage done to obstacles. If omitted, defaults to 'damage'.",
+			"falloff": "Number. Damage multiplier for every 100 units travelled.",
+			"speed": "Number. Speed of bullet in units per second.",
+			"range": "Array of 2 numbers. Minimum range and maximum range. 1 unit is radius of a player.",
+			"suppressed": "Boolean. Whether bullet fades over time.",
+			"noClip": "Boolean. Whether the bullet collides with stuff. Defaults to be false."
+		}
+	},
+	"<perk_id>": {
+		"__comment": "Overriden stats with perks."
+	},
+	"visuals": {
+		"__comment": "Data for client side rendering.",
+		"length": "Number. Gun length in game units.",
+		"tracer": {
+			"__comment": "Bullet tracer data.",
+			"type": "Number. Type of tracer, similar to color.",
+			"width": "Number. Width of tracer in game units.",
+			"length": "Number. Similar to width.",
+			"regularColor": "String. Hex color of regular tracer.",
+			"saturatedColor": "String. Hex color of saturated tracer.",
+			"chamberedColor": "String. Hex color of chambered tracer."
+		},
+		"animation": "String. Animation ID to play when shot."
+	}
+}
