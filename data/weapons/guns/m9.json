@@ -1,17 +1,27 @@
 {
+	"name": "M9",
 	"color": 0,
 	"ammo": 45,
 	"dual": true,
+	"length": 2.2,
 	"normal": {
 		"capacity": 15,
-		"reloadTime": 1600,
-		"switchDelay": 250,
-		"firingDelay": 120,
-		"spread": 8,
-		"moveSpread": 16,
+		"reload": {
+			"time": 1600
+		},
+		"delay": {
+			"switch": 250,
+			"firing": 120
+		},
+		"spread": {
+			"still": 8,
+			"move": 16
+		},
 		"bullets": 1,
-		"equipSpeed": 12,
-		"firingSpeed": 6,
+		"speed": {
+			"equip": 12,
+			"attack": 6
+		},
 		"headshot": 2,
 		"bullet": {
 			"damage": 12,
@@ -22,14 +32,15 @@
 		}
 	},
 	"visuals": {
-		"length": 2.2,
 		"tracer": {
 			"type": 0,
 			"width": 0.1,
 			"length": 0.7,
-			"regularColor": "FEE2C6",
-			"saturatedColor": "FFD9B3",
-			"chamberedColor": "FF7F00"
+			"color": {
+				"regular": "FEE2C6",
+				"saturated": "FFD9B3",
+				"chambered": "FF7F00"
+			}
 		},
 		"animation": "small_recoil"
 	}

@@ -1,21 +1,32 @@
 {
+	"name": "String. Name of the gun.",
 	"color": "Number. Color of the gun and bullets.",
 	"ammo": "Number. Ammos to spawn when dropped from loot (crates, trees, etc.).",
 	"dual": "Boolean. Whether or not the gun can be used in dual.",
+	"auto": "Boolean. Whether or not the gun can fire continuously. Defaults to false.",
+	"length": "Number. Gun length in game units.",
 	"normal": {
 		"__comment": "Default stats when no perks are active.",
 		"capacity": "Number. Magazine capacity.",
-		"reloadCount": "Number. Bullets per reload. 0 or omitted to reload all.",
-		"reloadTime": "Number. Reload time in milliseconds.",
-		"switchDelay": "Number. Switch delay in milliseconds.",
-		"firingDelay": "Number. Delay between shots in milliseconds.",
-		"burstDelay": "Number. Delay between secondary burst shots in milliseconds. If bursts is 0 or omitted, we don't care about this.",
-		"spread": "Number. Degrees of spread when standing still.",
-		"moveSpread": "Number. Degrees of spread when moving.",
+		"reload": {
+			"bullets": "Number. Bullets per reload. 0 or omitted to reload all.",
+			"time": "Number. Reload time in milliseconds."
+		},
+		"delay": {
+			"switch": "Number. Switch delay in milliseconds.",
+			"firing": "Number. Delay between shots in milliseconds.",
+			"burst": "Number. Delay between secondary burst shots in milliseconds. If bursts is 0 or omitted, we don't care about this."
+		},
+		"spread": {
+			"still": "Number. Degrees of spread when standing still.",
+			"move": "Number. Degrees of spread when moving."
+		},
 		"bullets": "Number. Bullets per shot.",
 		"bursts": "Number. Bullets per burst.",
-		"equipSpeed": "Number. Speed when equipped.",
-		"firingSpeed": "Number. Speed when firing.",
+		"speed": {
+			"equip": "Number. Speed when equipped.",
+			"attack": "Number. Speed when firing."
+		},
 		"headshot": "Number. Headshot damage multiplier.",
 		"recoil": "Number. Time required to get an accurate shot again. 0 or omitted to never.",
 		"bullet": {
@@ -34,15 +45,16 @@
 	},
 	"visuals": {
 		"__comment": "Data for client side rendering.",
-		"length": "Number. Gun length in game units.",
 		"tracer": {
 			"__comment": "Bullet tracer data.",
 			"type": "Number. Type of tracer, similar to color.",
 			"width": "Number. Width of tracer in game units.",
 			"length": "Number. Similar to width.",
-			"regularColor": "String. Hex color of regular tracer.",
-			"saturatedColor": "String. Hex color of saturated tracer.",
-			"chamberedColor": "String. Hex color of chambered tracer."
+			"color": {
+				"regular": "String. Hex color of regular tracer.",
+				"saturated": "String. Hex color of saturated tracer.",
+				"chambered": "String. Hex color of chambered tracer."
+			}
 		},
 		"animation": "String. Animation ID to play when shot."
 	}
