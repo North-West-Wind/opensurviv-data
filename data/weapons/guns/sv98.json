@@ -34,14 +34,9 @@
 	},
 	"visuals": {
 		"tracer": {
-			"type": 2,
+			"type": "762mm",
 			"width": 0.2,
-			"length": 1,
-			"color": {
-				"regular": "C5D6FE",
-				"saturated": "ABC4FF",
-				"chambered": "004CFF"
-			}
+			"length": 1
 		},
 		"animations": ["large_recoil"]
 	}

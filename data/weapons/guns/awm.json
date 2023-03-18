@@ -35,14 +35,9 @@
 	},
 	"visuals": {
 		"tracer": {
-			"type": 5,
+			"type": "308subsonic",
 			"width": 0.2,
-			"length": 1,
-			"color": {
-				"regular": "252B00",
-				"saturated": "465000",
-				"chambered": "131600"
-			}
+			"length": 1
 		},
 		"animations": ["large_recoil"]
 	}

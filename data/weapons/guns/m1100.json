@@ -37,14 +37,9 @@
 	},
 	"visuals": {
 		"tracer": {
-			"type": 1,
+			"type": "12gauge",
 			"width": 0.1,
-			"length": 0.1,
-			"color": {
-				"regular": "FEDCDC",
-				"saturated": "FEDCDC",
-				"chambered": "FF0000"
-			}
+			"length": 0.1
 		},
 		"animations": ["large_recoil"]
 	}
