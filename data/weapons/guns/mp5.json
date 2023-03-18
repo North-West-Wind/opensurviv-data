@@ -3,30 +3,31 @@
 	"color": 0,
 	"ammo": 90,
 	"dual": false,
-	"length": 2.5,
+	"auto": true,
+	"length": 2.625,
 	"droppable": true,
 	"normal": {
 		"capacity": 30,
 		"reload": {
-			"time": 10
+			"time": 2000
 		},
 		"delay": {
-			"switch": 25,
-			"firing": 1
+			"switch": 750,
+			"firing": 90
 		},
 		"spread": {
-			"still": 4,
-			"move": 4
+			"still": 3,
+			"move": 7
 		},
-		"bullets": 2,
+		"bullets": 1,
 		"speed": {
 			"equip": 12,
 			"attack": 6
 		},
 		"headshot": 2,
 		"bullet": {
-			"damage": 12,
-			"falloff": 0.7,
+			"damage": 11,
+			"falloff": 0.8,
 			"speed": 85,
 			"range": [100, 100],
 			"suppressed": false

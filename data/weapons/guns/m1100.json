@@ -4,53 +4,46 @@
 	"ammo": 12,
 	"dual": false,
 	"auto": false,
-	"length": 3.3,
+	"length": 3.15,
 	"droppable": true,
 	"normal": {
 		"capacity": 4,
 		"reload": {
 			"bullets": 1,
-			"time": 500
+			"time": 700
 		},
 		"delay": {
-			"switch": 0,
-			"firing": 0
+			"switch": 900,
+			"firing": 300
 		},
 		"spread": {
-			"still": 0,
-			"move": 1
+			"still": 25,
+			"move": 27
 		},
-		"bullets": 1,
-		"bursts": 5,
+		"bullets": 18,
 		"speed": {
 			"equip": 12,
-			"attack": 8
+			"attack": 6
 		},
 		"headshot": 1.5,
 		"recoil": 1000,
 		"bullet": {
-			"damage": 10,
-			"objDamage": 15,
-			"falloff": 1.0,
-			"speed": 90,
-			"range": [100, 100],
-			"suppressed": true
+			"damage": 4,
+			"falloff": 0.25,
+			"speed": 66,
+			"range": [25, 25],
+			"suppressed": false
 		}
 	},
-	"<perk_id>": {
-		"__comment": "Overriden stats with perks."
-	},
 	"visuals": {
-		"__comment": "Data for client side rendering.",
 		"tracer": {
-			"__comment": "Bullet tracer data.",
 			"type": 1,
-			"width": 1,
-			"length": 2,
+			"width": 0.1,
+			"length": 0.1,
 			"color": {
-				"regular": "#ffffff",
-				"saturated": "#ff0000",
-				"chambered": "#ff0000"
+				"regular": "FEDCDC",
+				"saturated": "FEDCDC",
+				"chambered": "FF0000"
 			}
 		},
 		"animations": ["large_recoil"]

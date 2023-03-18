@@ -3,44 +3,45 @@
 	"color": 2,
 	"ammo": 90,
 	"dual": false,
-	"length": 3.0,
+	"auto": true,
+	"length": 3.15,
 	"droppable": true,
 	"normal": {
 		"capacity": 30,
 		"reload": {
-			"time": 10
+			"time": 2500
 		},
 		"delay": {
-			"switch": 25,
-			"firing": 1
+			"switch": 750,
+			"firing": 100
 		},
 		"spread": {
-			"still": 2,
-			"move": 2
+			"still": 2.5,
+			"move": 10
 		},
-		"bullets": 2,
+		"bullets": 1,
 		"speed": {
 			"equip": 12,
 			"attack": 6
 		},
 		"headshot": 2,
 		"bullet": {
-			"damage": 15,
-			"falloff": 0.7,
-			"speed": 90,
-			"range": [100, 100],
+			"damage": 13.5,
+			"falloff": 0.9,
+			"speed": 100,
+			"range": [200, 200],
 			"suppressed": false
 		}
 	},
 	"visuals": {
 		"tracer": {
-			"type": 0,
+			"type": 2,
 			"width": 0.1,
 			"length": 0.9,
 			"color": {
-				"regular": "FEE2C6",
-				"saturated": "FFD9B3",
-				"chambered": "FF7F00"
+				"regular": "C5D6FE",
+				"saturated": "ABC4FF",
+				"chambered": "004CFF"
 			}
 		},
 		"animations": ["medium_recoil"]
