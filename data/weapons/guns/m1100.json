@@ -53,6 +53,6 @@
 				"chambered": "#ff0000"
 			}
 		},
-		"animations": ["fast_recoil"]
+		"animations": ["large_recoil"]
 	}
 }

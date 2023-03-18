@@ -1,32 +1,32 @@
 {
-	"name": "Mosin Nagant",
+	"name": "SV 98",
 	"color": 2,
-	"ammo": 30,
+	"ammo": 70,
 	"dual": false,
 	"length": 4.0,
 	"droppable": true,
 	"normal": {
-		"capacity": 5,
+		"capacity": 10,
 		"reload": {
 			"bullets": 1,
 			"time": 1000
 		},
 		"delay": {
 			"switch": 0,
-			"firing": 1500
+			"firing": 2000
 		},
 		"spread": {
 			"still": 0,
-			"move": 1
+			"move": 0
 		},
 		"bullets": 1,
 		"speed": {
 			"equip": 12,
 			"attack": 2
 		},
-		"headshot": 2,
+		"headshot": 2.5,
 		"bullet": {
-			"damage": 12,
+			"damage": 85,
 			"falloff": 1.0,
 			"speed": 100,
 			"range": [100, 100],
@@ -36,8 +36,8 @@
 	"visuals": {
 		"tracer": {
 			"type": 2,
-			"width": 0.5,
-			"length": 1.0,
+			"width": 1.0,
+			"length": 2.0,
 			"color": {
 				"regular": "ffffff",
 				"saturated": "ffffff",

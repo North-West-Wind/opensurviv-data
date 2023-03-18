@@ -1,6 +1,6 @@
 {
-	"name": "Mosin Nagant",
-	"color": 2,
+	"name": "AWM-S",
+	"color": 4,
 	"ammo": 30,
 	"dual": false,
 	"length": 4.0,
@@ -9,15 +9,15 @@
 		"capacity": 5,
 		"reload": {
 			"bullets": 1,
-			"time": 1000
+			"time": 2000
 		},
 		"delay": {
 			"switch": 0,
-			"firing": 1500
+			"firing": 1750
 		},
 		"spread": {
 			"still": 0,
-			"move": 1
+			"move": 0
 		},
 		"bullets": 1,
 		"speed": {
@@ -28,7 +28,7 @@
 		"bullet": {
 			"damage": 12,
 			"falloff": 1.0,
-			"speed": 100,
+			"speed": 90,
 			"range": [100, 100],
 			"suppressed": false
 		}
@@ -37,7 +37,7 @@
 		"tracer": {
 			"type": 2,
 			"width": 0.5,
-			"length": 1.0,
+			"length": 2.0,
 			"color": {
 				"regular": "ffffff",
 				"saturated": "ffffff",
