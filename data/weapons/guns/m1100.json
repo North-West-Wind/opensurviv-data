@@ -4,7 +4,7 @@
 	"ammo": 12,
 	"dual": false,
 	"auto": false,
-	"length": 3.15,
+	"length": 3.0,
 	"droppable": true,
 	"normal": {
 		"capacity": 4,
